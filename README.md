@@ -15,17 +15,21 @@ usually shipped alongside the file(s) that it describes.
 A typical `qmf` file looks like this:
 
     @prefix : <http://purl.org/dc/elements/1.1/>.
-
     <>
-      :title      "De Edele Koran";
-      :creator    "Sofian S. Siregar";
-      :publisher  "ICCN";
-      :date       "2000";
-      :language   "nl";
-      :format     "qtf";
-      :type       "translation";
-      :identifier "URN:ISBN:90-73355-08-7".
-      
+    :title      "De Edele Koran";
+    :creator    "Sofian S. Siregar";
+    :publisher  "ICCN";
+    :date       "2000";
+    :language   "nl";
+    :format     "qtf";
+    :type       "translation";
+    :identifier "URN:ISBN:90-73355-08-7".
+
+The first line includes the Dublin Core Elements vocabulary.
+The second line starts an unnamed resource, the conscutive lines describe
+properties their values on the unnamed resource.
+
+
 ## Overview of keywords
 
 We use the [DC Metadata Element Set](http://dublincore.org/documents/dces)
