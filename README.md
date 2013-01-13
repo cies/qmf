@@ -47,7 +47,7 @@ The title of the text it describes.
 An person (or organization) that created the text: the author.  Please
 repeat this in case there are more then one primary author.
 
-#### Publisher
+#### publisher
 
 The organization that holds the publishing rights.
 
