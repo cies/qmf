@@ -26,8 +26,9 @@ A typical `qmf` file looks like this:
     :identifier "URN:ISBN:90-73355-08-7".
 
 The first line includes the Dublin Core Elements vocabulary.
-The second line starts an unnamed resource, the conscutive lines describe
-properties their values on the unnamed resource.
+The second line starts an unnamed resource (the file it describes)
+the conscutive lines describe properties and their values on the
+unnamed resource.
 
 
 ## Overview of keywords
